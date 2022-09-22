@@ -1,0 +1,53 @@
+.header{
+font-family: 'Inter';
+font-style: normal;
+}
+
+h1 {
+font-weight: 400;
+font-size: 46px;
+line-height: 56px;
+    }   
+h2 {
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;   
+}
+h3 {
+font-weight: 400;
+font-size: 34px;
+line-height: 41px;    
+}
+h4 {
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;   
+}
+h5 {
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;   
+    }
+h6 {
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;   
+}
+p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;    
+}
+hr {
+border: 7px solid #656AF7;   
+}
+a {
+font-family: 'Inter';
+font-style: italic;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #717DE6;    
+}
