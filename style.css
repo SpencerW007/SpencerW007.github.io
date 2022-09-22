@@ -43,7 +43,7 @@ line-height: 18px;
 hr {
 border: 7px solid #656AF7;   
 }
-a {
+link {
 font-family: 'Inter';
 font-style: italic;
 font-weight: 500;
@@ -51,7 +51,7 @@ font-size: 15px;
 line-height: 18px;
 color: #717DE6;    
 }
-a:hover {
+link:hover {
 font-family: 'Inter';
 font-style: italic;
 font-weight: 700;
@@ -61,7 +61,7 @@ text-decoration-line: underline;
 color: #1DAC67;
 }
 
-a:visited {
+link:visited {
 font-family: 'Inter';
 font-style: italic;
 font-weight: 400;
