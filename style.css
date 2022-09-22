@@ -51,3 +51,51 @@ font-size: 15px;
 line-height: 18px;
 color: #717DE6;    
 }
+a:hover {
+font-family: 'Inter';
+font-style: italic;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+text-decoration-line: underline;
+color: #1DAC67;
+}
+
+a:visited {
+font-family: 'Inter';
+font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #E33813;
+}
+.button {
+background: #46CDEB;
+border-radius: 50px;
+}
+.button:hover {
+background: #A5EEEE;
+border-radius: 50px;
+}
+ 
+.button:visited {
+background: #106BAD;
+border-radius: 50px;   
+}
+ol {
+font-family: 'Itim';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+
+ul {
+font-family: 'Mukta Vaani';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+       
+}
