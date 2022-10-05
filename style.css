@@ -168,17 +168,6 @@ padding: 20px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width:700px)
 {
 
@@ -213,11 +202,32 @@ nav ul {
 }
     
 nav a {
-        color: black;
-        text-decoration: none;
-        padding: .5em 1em;
-        font-size: 15px;
+     color: black;
+     text-decoration: none;
+     padding: .5em 1em;
+     font-size: 15px;
 }
 
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
 
+.nlink {
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 18px; 
+    margin: auto;  
+}
+
+.educationH {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;    
+    margin: 20px;
+    padding: 20px;
+    }
     }
