@@ -49,9 +49,8 @@ font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
-line-height: auto;  
-
 }
+
 hr {
 border: 20px solid black;
 margin-bottom: 200px;
@@ -60,10 +59,10 @@ margin-top: 168px;
 
 a {
 font-family: 'Inter';
-font-style: bold;
-font-size: 40;
+font-size: 20px;
 line-height: 18px;
 color:purple;    
+margin: -20px;
 }
 a:hover {
 font-family: 'Inter';
@@ -117,9 +116,8 @@ padding: 20px;
 }
 
 ul li{
-font-size: 20;
-padding: 20;
-
+font-size: 20px;
+padding: 20px;
 }
 
 nav {
@@ -131,13 +129,12 @@ nav {
 }
 
 nav ul {
-    font-size: 40;
+    font-size: 40px;
     margin: 5px;
     padding: 5px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
 }
     
 nav a {
@@ -163,8 +160,12 @@ margin: 20px;
 padding: 20px;
 }
 
-
-
+.nlink {
+    font-family: 'Inter';
+    font-size: 25px;
+    line-height: 18px; 
+    margin: auto;  
+}
 
 
 
@@ -191,7 +192,7 @@ h2 {
     top:0%;
     display: flex;
     font-size: 29px;
-    align-items: left;
+    align-items:flex-start;
 }
 
 img{
