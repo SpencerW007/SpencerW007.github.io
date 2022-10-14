@@ -7,13 +7,13 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-var storyText = "It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.";
+var storyText = "It was 94 fahrenheit outside, so :insertx: who weighs 300 pounds decided to leave their couch and go outside. They wanted to go somewhere, but not sure where. It took them awhile, but eventually went to :inserty:. Once they were there, they started having a fun time, but all of a sudden :insertz:. Bob witnessed it happen and didn't know what to do. But eventually, they decided to leave without saying anything. It will forever be their secret";
 
-var insertX = ["Willy the Goblin","Big Daddy", "Father Christmas"];
+var insertX = ["Batman","Ronald McDonald", "my ex girlfriend"];
 
-var insertY = ["the soup kitchen", "Disneyland", "the White House"];
+var insertY = ["my parent's basement", "Rapunzel's tower ", "Toyota-thon"];
 
-var insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
+var insertZ = ["decided to order a slice of pizza", "started coding a website for a midterm project", "began planning a Netflix and chill date"];
 
 randomize.addEventListener('click', result);
 
@@ -27,20 +27,20 @@ var yItem = randomValueFromArray(insertY);
 
 var zItem = randomValueFromArray(insertZ);
 
-newStory.replace(':insertx:' ,xItem);
-newStory.replace(':inserty:' ,yItem);
-newStory.replace(':insertz:' ,zItem);
+newStory = newStory.replace(':insertx:' ,xItem);
+newStory = newStory.replace(':inserty:' ,yItem);
+newStory = newStory.replace(':insertz:' ,zItem);
 
   if(customName.value !== 'Bob') {
     const name = customName.value;
-
+    newStory = newStory.replace('Bob', name);
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300/14)+ 'stones';
-    const temperature =  Math.round((94-32)*.5556) +'centigrade';
-    console.log(storyText.replace('94 fahrenheit',temperature));
-    console.log(storyText.replace('300 pounds',weight));
+    const weight = Math.round(300/14)+ ' stone';
+    const temperature =  Math.round((94-32)*.5556) +' centigrade';
+    newStory = newStory.replace('94 fahrenheit', temperature);
+    newStory = newStory.replace('300 pounds', weight);
   }
 
   story.textContent = newStory
