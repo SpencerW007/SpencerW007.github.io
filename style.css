@@ -1,11 +1,13 @@
 
 
 .header{
-font-family: 'Inter';
+font-family: monospace;
 font-style: normal;
 }
 
 h1 {
+font-family: monospace;
+font-style: normal;
 font-weight: 400;
 font-size: 46px;
 line-height: 56px;
@@ -13,6 +15,8 @@ text-align: center;
     }   
 
 h2 {
+font-family: monospace;
+font-style: normal;    
 font-weight: 400;
 font-size: 40px;
 line-height: 48px;   
@@ -20,6 +24,8 @@ text-align: center;
 }
 
 h3 {
+font-family: monospace;
+font-style: normal;
 font-weight: 400;
 font-size: 34px;
 line-height: 41px;    
@@ -28,24 +34,30 @@ padding: 20px;
 }
 
 h4 {
+font-family: monospace;
+font-style: normal;
 font-weight: 400;
 font-size: 30px;
 line-height: 27px;  
 text-align: center; 
 }
 h5 {
+font-family: monospace;
+font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 27px;   
     }
 h6 {
+font-family: monospace;
+font-style: normal;
 font-weight: 400;
 font-size: 22px;
 line-height: 27px;   
 }
 
 p {
-font-family: 'Inter';
+font-family: monospace;
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
@@ -58,14 +70,14 @@ margin-top: 168px;
 }
 
 a {
-font-family: 'Inter';
+font-family: monospace;
 font-size: 20px;
 line-height: 18px;
 color: #717de5;;    
 margin: -20px;
 }
 a:hover {
-font-family: 'Inter';
+font-family: monospace;
 font-style: italic;
 line-height: 18px;
 text-decoration-line: underline;
@@ -73,11 +85,10 @@ color: #1DAC67;
 }
 
 a:visited {
-font-family: 'Inter';
+font-family: monospace;
 font-style: italic;
 font-size: 10px;
 line-height: 18px;
-color:red;
 }
 .button {
 background: #46CDEB;
@@ -93,7 +104,7 @@ background: #106BAD;
 border-radius: 50px;   
 }
 ol {
-font-family: 'Itim';
+font-family: monospace;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -102,7 +113,7 @@ color: #000000;
 }
 
 ul {
-font-family: 'Mukta Vaani';
+font-family: monospace;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -124,7 +135,6 @@ nav {
     background-color: gray;
     padding: .5em;
     width: 100%;
-    position: sticky;
     top: 0;
 }
 
@@ -161,7 +171,7 @@ padding: 20px;
 }
 
 .nlink {
-    font-family: 'Inter';
+    font-family: monospace;
     font-size: 25px;
     line-height: 18px; 
     margin: auto;  
@@ -209,14 +219,14 @@ nav a {
 }
 
 p{
-    font-family: 'Inter';
+    font-family: monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
 }
 
 .nlink {
-    font-family: 'Inter';
+    font-family: monospace;
     font-size: 15px;
     line-height: 18px; 
     margin: auto;  
