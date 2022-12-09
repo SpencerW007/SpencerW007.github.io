@@ -90,17 +90,33 @@ font-style: italic;
 font-size: 10px;
 line-height: 18px;
 }
+
+input {
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+input:hover {
+    background-color: blue;
+}
+input:visited {
+    background-color: red;
+}
+
+
 .button {
 background: #46CDEB;
 border-radius: 50px;
 }
-.button:hover {
-background: #A5EEEE;
-border-radius: 50px;
-}
+
  
 .button:visited {
-background: #106BAD;
+background: red;
 border-radius: 50px;   
 }
 ol {
@@ -175,7 +191,6 @@ padding: 20px;
     line-height: 18px; 
     margin: auto;  
 }
-
 
 @media only screen and (max-width:700px)
 {
